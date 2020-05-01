@@ -1,0 +1,23 @@
+{
+    "name": "glaucials/digital-cep",
+    "description": "Buscar CEP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Glaucia Silva",
+            "email": "glaucia.ap1258@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">= 7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "GlauciaLS\\DigitalCep\\": "src/"
+        }
+    }
+}
